@@ -27,9 +27,9 @@ jobs:
       - name: github actions 자체에 저장되어있는 변수 사용해보기 
         run: |
             # 현재 커밋에 대한 id값
-            $GITHUB_SHA      
+            echo $GITHUB_SHA      
             # github 레포지토리명 
-            $GITHUB_REPOSITORY
+            echo $GITHUB_REPOSITORY
             
 
 
