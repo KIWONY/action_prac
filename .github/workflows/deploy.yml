@@ -30,7 +30,9 @@ jobs:
             echo $GITHUB_SHA      
             # github 레포지토리명 
             echo $GITHUB_REPOSITORY
-            
+      - name: 아무한테 노출이 되면 안 되는 값
+        run: |
+          echo $ {{ secrets.PASSWORD }}
 
 
 
